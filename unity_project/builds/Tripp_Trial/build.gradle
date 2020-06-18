@@ -26,7 +26,7 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation(name: 'OVRPlugin', ext:'aar')
+    // implementation(name: 'OVRPlugin', ext:'aar')
 }
 
 android {
