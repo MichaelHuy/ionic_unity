@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-16:12
-INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-16:12
-INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-16:12
-INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-16:12
-INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-16:12
-INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-16:12
-INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-16:12
+ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-15:12
 	package
 		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:70-104
 		INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml
 		INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml
-		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-16:12
+		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-15:12
 		INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:105-151
 	android:versionCode
 		INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml
-		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-16:12
+		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:1-15:12
 		INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:2:11-69
@@ -79,28 +79,24 @@ uses-feature#0x00030000
 ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:11:3-52
 	android:glEsVersion
 		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:11:17-49
-uses-permission#android.permission.INTERNET
-ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:12:3-65
-	android:name
-		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:12:20-62
 uses-feature#android.hardware.touchscreen
-ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:13:3-88
+ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:12:3-88
 	android:required
-		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:13:61-85
+		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:12:61-85
 	android:name
-		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:13:17-60
+		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:12:17-60
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:14:3-99
+ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:13:3-99
 	android:required
-		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:14:72-96
+		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:13:72-96
 	android:name
-		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:14:17-71
+		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:13:17-71
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:15:3-108
+ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:14:3-108
 	android:required
-		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:15:81-105
+		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:14:81-105
 	android:name
-		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:15:17-80
+		ADDED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml:14:17-80
 uses-sdk
 INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/huyle/Upwork/Thrival/ionicUnity/unity_project/builds/Tripp_Trial/src/main/AndroidManifest.xml
