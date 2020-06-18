@@ -21,7 +21,7 @@ allprojects {
     }
 }
 
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 
 dependencies {
@@ -41,7 +41,7 @@ android {
     defaultConfig {
         minSdkVersion 26
         targetSdkVersion 28
-        applicationId 'com.Queppelin.Trip_trial'
+        // applicationId 'com.Queppelin.Trip_trial'
         ndk {
             abiFilters 'armeabi-v7a'
         }
@@ -79,15 +79,15 @@ android {
     }
 
 
-    bundle {
-        language {
-            enableSplit = false
-        }
-        density {
-            enableSplit = false
-        }
-        abi {
-            enableSplit = true
-        }
-    }
+//    bundle {
+//        language {
+//            enableSplit = false
+//        }
+//        density {
+//            enableSplit = false
+//        }
+//        abi {
+//            enableSplit = true
+//        }
+//    }
 }
