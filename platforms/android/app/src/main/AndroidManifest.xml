@@ -9,5 +9,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:label="@string/app_name" android:name="com.unitycaller.ionic.UnityPlayerExtendedActivity" android:process=":unityselfprocess" android:screenOrientation="portrait">
+            <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+            <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="false" />
+        </activity>
     </application>
 </manifest>

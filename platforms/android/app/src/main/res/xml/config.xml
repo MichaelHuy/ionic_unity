@@ -68,4 +68,10 @@
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
+    <feature name="LaunchAR">
+        <param name="android-package" value="org.apache.cordova.plugin.CordovaUnityLauncher" />
+    </feature>
+    <feature name="SendMessage">
+        <param name="android-package" value="org.apache.cordova.plugin.CordovaUnityLauncher" />
+    </feature>
 </widget>
