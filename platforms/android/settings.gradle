@@ -3,4 +3,4 @@ include ":"
 include ":CordovaLib"
 include ":app"
 include ':UnityProject'
-project(':UnityProject').projectDir = new File('../../unity_project')
+project(':UnityProject').projectDir = new File('../../unity_project/builds/Tripp_Trial')
