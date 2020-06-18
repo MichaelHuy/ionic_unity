@@ -39,7 +39,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 26
+        minSdkVersion 19
         targetSdkVersion 28
         // applicationId 'com.Queppelin.Trip_trial'
         ndk {

@@ -291,10 +291,12 @@ android {
 
 
 dependencies {
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
     implementation fileTree(dir: 'libs', include: '*.jar')
+    implementation(project(':UnityProject'))
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
-    implementation(project(':UnityProject'))
     implementation "com.android.support:support-annotations:27.+"
     // SUB-PROJECT DEPENDENCIES END
 }
