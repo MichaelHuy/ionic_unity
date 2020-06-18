@@ -109,7 +109,7 @@
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:viewmodel:1.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime:1.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.core:runtime:1.1.0@aar" level="project" />
-    <orderEntry type="module" module-name="Tripp_Trial-UnityProject" />
+    <orderEntry type="module" module-name="UnityProject" />
     <orderEntry type="module" module-name="CordovaLib" />
   </component>
 </module>
