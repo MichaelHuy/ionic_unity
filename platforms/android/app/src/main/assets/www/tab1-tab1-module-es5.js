@@ -1,3 +1,7 @@
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["tab1-tab1-module"], {
@@ -17,7 +21,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<ion-header [translucent]=\"true\">\n  <ion-toolbar>\n    <ion-title>\n      Tab 1\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content [fullscreen]=\"true\">\n  <ion-header collapse=\"condense\">\n    <ion-toolbar>\n      <ion-title size=\"large\">Tab 1</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <app-explore-container name=\"Tab 1 page\"></app-explore-container>\n</ion-content>\n";
+    __webpack_exports__["default"] = "<ion-header [translucent]=\"true\">\n  <ion-toolbar>\n    <ion-title>\n      Tab 1\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content [fullscreen]=\"true\">\n  <ion-header collapse=\"condense\">\n    <ion-toolbar>\n      <ion-title size=\"large\">Tab 1</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-button expand=\"block\" fill=\"outline\" (click)=\"openUnity()\">TO UNITY</ion-button>\n\n  <app-explore-container name=\"Tab 1 page\"></app-explore-container>\n</ion-content>\n";
     /***/
   },
 
@@ -212,9 +216,40 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
-    var Tab1Page = function Tab1Page() {
-      _classCallCheck(this, Tab1Page);
-    };
+    var Tab1Page = /*#__PURE__*/function () {
+      function Tab1Page() {
+        _classCallCheck(this, Tab1Page);
+
+        this.uReturnedFromUnity = function (param) {
+          // param:String is the (optional) message returned from Unity-side
+          alert(param);
+        };
+
+        this.uMessageReceivedFromUnity = function (message) {
+          // message:String is the message received from Unity-side
+          // If you call a UI-blocking function here like 'alert', subsequent messages from Unity
+          // will be queued by the OS and will only be received after returning to Ionic and
+          // unblocking the UI
+          console.log("=========" + message + "=========");
+        };
+      }
+
+      _createClass(Tab1Page, [{
+        key: "openUnity",
+        value: function openUnity() {
+          // It is possible to send a string message to Unity-side (optional)
+          unityARCaller.launchAR("my message for Unity-side", this.uReturnedFromUnity, this.uMessageReceivedFromUnity);
+        }
+      }, {
+        key: "sendMessageToUnity",
+        value: function sendMessageToUnity() {
+          // Send a message to Unity while Unity is still running
+          unityARCaller.sendMessage("Function name", "Optional parameter");
+        }
+      }]);
+
+      return Tab1Page;
+    }();
 
     Tab1Page = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-tab1',
